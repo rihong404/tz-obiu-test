@@ -1,0 +1,438 @@
+2019-05-09 10:37:03.246 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarting - Starting TzObiuTestApplicationTests on MS-20181228DEMH with PID 7684 (started by Administrator in C:\workspace\tz-obiu-test)
+2019-05-09 10:37:03.250 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-05-09 10:37:04.673 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner.warn - No MyBatis mapper was found in '[com.tz.obiu.test]' package. Please check your configuration.
+2019-05-09 10:37:05.121 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$62e13e7d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 10:37:06.132 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-09 10:37:07.319 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarted - Started TzObiuTestApplicationTests in 4.619 seconds (JVM running for 5.803)
+2019-05-09 10:37:07.727 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig.logAll - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.2.194:10777]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-05-09 10:37:08.125 [main] INFO  org.apache.kafka.common.utils.AppInfoParser.<init> - Kafka version : 2.0.1
+2019-05-09 10:37:08.125 [main] INFO  org.apache.kafka.common.utils.AppInfoParser.<init> - Kafka commitId : fa14705e51bd2ce5
+2019-05-09 10:37:08.288 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata.update - Cluster ID: RU7dkzz8Se-7mr9XNq9eGA
+2019-05-09 10:37:08.375 [Thread-2] INFO  org.apache.kafka.clients.producer.KafkaProducer.close - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2019-05-09 10:37:08.402 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-09 10:40:41.005 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarting - Starting TzObiuTestApplicationTests on MS-20181228DEMH with PID 888 (started by Administrator in C:\workspace\tz-obiu-test)
+2019-05-09 10:40:41.008 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-05-09 10:40:41.771 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner.warn - No MyBatis mapper was found in '[com.tz.obiu.test]' package. Please check your configuration.
+2019-05-09 10:40:42.211 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$24f11603] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 10:40:43.215 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-09 10:40:44.292 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarted - Started TzObiuTestApplicationTests in 3.936 seconds (JVM running for 5.219)
+2019-05-09 10:40:44.628 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig.logAll - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.2.194:10777]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-05-09 10:40:44.760 [main] INFO  org.apache.kafka.common.utils.AppInfoParser.<init> - Kafka version : 2.0.1
+2019-05-09 10:40:44.760 [main] INFO  org.apache.kafka.common.utils.AppInfoParser.<init> - Kafka commitId : fa14705e51bd2ce5
+2019-05-09 10:40:44.910 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata.update - Cluster ID: RU7dkzz8Se-7mr9XNq9eGA
+2019-05-09 10:40:45.006 [Thread-2] INFO  org.apache.kafka.clients.producer.KafkaProducer.close - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2019-05-09 10:40:45.016 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-09 10:51:46.713 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarting - Starting TzObiuTestApplicationTests on MS-20181228DEMH with PID 8248 (started by Administrator in C:\workspace\tz-obiu-test)
+2019-05-09 10:51:46.715 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-05-09 10:51:47.530 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner.warn - No MyBatis mapper was found in '[com.tz.obiu.test]' package. Please check your configuration.
+2019-05-09 10:51:48.034 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$c4e6084f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 10:51:49.127 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-09 10:51:50.244 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarted - Started TzObiuTestApplicationTests in 4.173 seconds (JVM running for 5.377)
+2019-05-09 10:51:50.617 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig.logAll - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.2.194:10777]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-05-09 10:51:50.746 [main] INFO  org.apache.kafka.common.utils.AppInfoParser.<init> - Kafka version : 2.0.1
+2019-05-09 10:51:50.747 [main] INFO  org.apache.kafka.common.utils.AppInfoParser.<init> - Kafka commitId : fa14705e51bd2ce5
+2019-05-09 10:51:50.901 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata.update - Cluster ID: RU7dkzz8Se-7mr9XNq9eGA
+2019-05-09 10:51:50.996 [Thread-2] INFO  org.apache.kafka.clients.producer.KafkaProducer.close - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2019-05-09 10:51:51.015 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-09 10:57:24.772 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarting - Starting TzObiuTestApplicationTests on MS-20181228DEMH with PID 2084 (started by Administrator in C:\workspace\tz-obiu-test)
+2019-05-09 10:57:24.774 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-05-09 10:57:25.770 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner.warn - No MyBatis mapper was found in '[com.tz.obiu.test]' package. Please check your configuration.
+2019-05-09 10:57:26.187 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$a9289a02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 10:57:27.134 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-09 10:57:28.227 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarted - Started TzObiuTestApplicationTests in 4.033 seconds (JVM running for 5.188)
+2019-05-09 10:57:28.580 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig.logAll - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.2.194:10777]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-05-09 10:57:28.700 [main] INFO  org.apache.kafka.common.utils.AppInfoParser.<init> - Kafka version : 2.0.1
+2019-05-09 10:57:28.701 [main] INFO  org.apache.kafka.common.utils.AppInfoParser.<init> - Kafka commitId : fa14705e51bd2ce5
+2019-05-09 10:57:28.845 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata.update - Cluster ID: RU7dkzz8Se-7mr9XNq9eGA
+2019-05-09 10:57:28.981 [Thread-2] INFO  org.apache.kafka.clients.producer.KafkaProducer.close - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2019-05-09 10:57:28.993 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-09 11:07:29.333 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarting - Starting TzObiuTestApplicationTests on MS-20181228DEMH with PID 9408 (started by Administrator in C:\workspace\tz-obiu-test)
+2019-05-09 11:07:29.336 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-05-09 11:07:30.127 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner.warn - No MyBatis mapper was found in '[com.tz.obiu.test]' package. Please check your configuration.
+2019-05-09 11:07:30.573 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$782e8343] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 11:07:31.479 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-09 11:07:32.520 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarted - Started TzObiuTestApplicationTests in 3.79 seconds (JVM running for 5.073)
+2019-05-09 11:07:32.901 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig.logAll - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.2.194:10777]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-05-09 11:07:33.060 [main] INFO  org.apache.kafka.common.utils.AppInfoParser.<init> - Kafka version : 2.0.1
+2019-05-09 11:07:33.061 [main] INFO  org.apache.kafka.common.utils.AppInfoParser.<init> - Kafka commitId : fa14705e51bd2ce5
+2019-05-09 11:07:33.212 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata.update - Cluster ID: RU7dkzz8Se-7mr9XNq9eGA
+2019-05-09 11:07:33.302 [Thread-2] INFO  org.apache.kafka.clients.producer.KafkaProducer.close - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2019-05-09 11:07:33.318 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-09 11:25:12.331 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarting - Starting TzObiuTestApplicationTests on MS-20181228DEMH with PID 4204 (started by Administrator in C:\workspace\tz-obiu-test)
+2019-05-09 11:25:12.333 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-05-09 11:25:13.122 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner.warn - No MyBatis mapper was found in '[com.tz.obiu.test]' package. Please check your configuration.
+2019-05-09 11:25:13.620 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$6bd2307] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-09 11:25:14.677 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-09 11:25:15.811 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarted - Started TzObiuTestApplicationTests in 4.43 seconds (JVM running for 5.58)
+2019-05-09 11:25:16.169 [main] INFO  org.apache.kafka.clients.producer.ProducerConfig.logAll - ProducerConfig values: 
+	acks = 1
+	batch.size = 16384
+	bootstrap.servers = [192.168.2.194:10777]
+	buffer.memory = 33554432
+	client.id = 
+	compression.type = none
+	connections.max.idle.ms = 540000
+	enable.idempotence = false
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 3
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+2019-05-09 11:25:16.300 [main] INFO  org.apache.kafka.common.utils.AppInfoParser.<init> - Kafka version : 2.0.1
+2019-05-09 11:25:16.300 [main] INFO  org.apache.kafka.common.utils.AppInfoParser.<init> - Kafka commitId : fa14705e51bd2ce5
+2019-05-09 11:25:16.453 [kafka-producer-network-thread | producer-1] INFO  org.apache.kafka.clients.Metadata.update - Cluster ID: RU7dkzz8Se-7mr9XNq9eGA
+2019-05-09 11:25:16.527 [Thread-2] INFO  org.apache.kafka.clients.producer.KafkaProducer.close - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2019-05-09 11:25:16.574 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'

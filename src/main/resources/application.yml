@@ -1,0 +1,35 @@
+server:
+  port: 8999
+logging:
+  config: classpath:logback-spring.xml
+  
+spring:
+  application:
+    name: tz-obiu-test
+  kafka:
+    consumer:
+      auto-commit-interval: 100
+      bootstrap-servers: 192.168.2.194:10777
+      group-id: local.printTask
+      enable-auto-commit: false
+      max-poll-records: 100
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      bootstrap-servers: 192.168.2.194:10777
+      retries: 3
+      batch-size: 16384
+      bufferMemory: 33554432
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.2.79:3306/dx?useSSL=false
+    username: root
+    password: 123456
+    
+management:
+  endpoint:
+    health:
+      show-details: always

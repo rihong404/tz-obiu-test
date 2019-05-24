@@ -1,0 +1,11 @@
+2019-04-25 19:46:16.394 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarting - Starting TzObiuTestApplicationTests on MS-20181228DEMH with PID 12832 (started by Administrator in C:\workspace\tz-obiu-test)
+2019-04-25 19:46:16.400 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+2019-04-25 19:46:17.340 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner.warn - No MyBatis mapper was found in '[com.tz.obiu.test]' package. Please check your configuration.
+2019-04-25 19:46:17.841 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization - Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$dd54044d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-25 19:46:18.893 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize - Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-25 19:46:20.043 [main] INFO  com.tz.obiu.test.TzObiuTestApplicationTests.logStarted - Started TzObiuTestApplicationTests in 4.376 seconds (JVM running for 5.481)
+2019-04-25 19:46:20.343 [main] INFO  com.tz.obiu.test.test.ListForEach.lambda$0 - 0=1
+2019-04-25 19:46:20.345 [main] INFO  com.tz.obiu.test.test.ListForEach.lambda$0 - 0=2
+2019-04-25 19:46:20.346 [main] INFO  com.tz.obiu.test.test.ListForEach.lambda$0 - 0=3
+2019-04-25 19:46:20.346 [main] INFO  com.tz.obiu.test.test.ListForEach.lambda$0 - 0=4
+2019-04-25 19:46:20.357 [Thread-2] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown - Shutting down ExecutorService 'applicationTaskExecutor'
