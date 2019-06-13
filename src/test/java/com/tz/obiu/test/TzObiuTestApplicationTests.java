@@ -4,6 +4,7 @@ package com.tz.obiu.test;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.forwardedUrl;
 
+import java.awt.List;
 import java.io.FileReader;
 import java.util.HashMap;
 import java.util.Map;
@@ -25,6 +26,7 @@ import com.tz.obiu.test.test.AutowiredTest1;
 import com.tz.obiu.test.test.AutowiredBeanTest;
 import com.tz.obiu.test.test.AutowiredTest;
 import com.tz.obiu.test.test.AutowiredTest2;
+import com.tz.obiu.test.test.StringSplit;
 import com.tz.obiu.test.test.ValueTest;
 
 import kafka.utils.Json;
@@ -48,7 +50,10 @@ public class TzObiuTestApplicationTests {
 	AutowiredTest1 autowiredTest1;
 	@Autowired
 	AutowiredTest2 autowiredTest2;
+	@Autowired
+	AutowiredTest autowiredTest;
 	
+	public final static Integer operations = 3 | 32;
 	
 	@Test
 	public void contextLoads() {
@@ -74,10 +79,10 @@ public class TzObiuTestApplicationTests {
 //		}
 		
 		//打印测试
-		for(int i = 0; i < 300; i++) {
-			PrintTask task = new PrintTask(null,"xs00001000109", "1911443AY","1", "1");
-			kafkaTemplate.send("local.print.printTask",String.valueOf(i),JSON.toJSON(task).toString());
-		}
+//		for(int i = 0; i < 300; i++) {
+//			PrintTask task = new PrintTask(null,"xs00001000109", "1911443AY","1", "1");
+//			kafkaTemplate.send("local.print.printTask",String.valueOf(i),JSON.toJSON(task).toString());
+//		}
 		
 		//测试原型模式
 //		Cat cat1 = new Cat("皮蛋","灰色", "蹭人");
@@ -86,19 +91,26 @@ public class TzObiuTestApplicationTests {
 //			cat2 = cat1.clone();
 //			
 //		} catch (CloneNotSupportedException e) {
-//			// TODO Auto-generated catch block
 //			e.printStackTrace();
 //		}
 ////		cat2.setName("妞妞");
 //		System.out.println("cat1:"+cat1+",cat2:"+cat2);
 		
 //		test.testValue();
-		autowiredTest1.test();
-		autowiredTest2.test();
+//		AutowiredTest ff = new AutowiredTest();
+//		System.out.println("引用的父类："+ff);
+//		System.out.println("引用的父类："+autowiredTest);
 //		autowiredTest1.test();
-		System.out.println("员工类型：" + AutowiredBeanTest.type);
-		System.out.println("员工姓名：" + autowiredBeanTest.name);
-		System.out.println(autowiredBeanTest);
+//		autowiredTest2.test();
+////		autowiredTest1.test();
+//		System.out.println("员工类型：" + AutowiredBeanTest.type);
+//		System.out.println("员工姓名：" + autowiredBeanTest.name);
+//		System.out.println(autowiredBeanTest);
+		
+		//分隔String
+//		StringSplit.test();
+		
+		System.out.println(operations);
 	}
 
 }
